@@ -1,0 +1,14 @@
+[package]
+name = "compiler-bug"
+version = "0.1.0"
+authors = ["David <enfipy@gmail.com>"]
+edition = "2018"
+
+[dependencies.primitives]
+package = "substrate-primitives"
+git = "https://github.com/paritytech/substrate.git"
+rev = "47b158b7a04bf0f5cd542a468076a7fda29648a4"
+
+[dependencies.sr-primitives]
+git = "https://github.com/paritytech/substrate.git"
+rev = "47b158b7a04bf0f5cd542a468076a7fda29648a4"
